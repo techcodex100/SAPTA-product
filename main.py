@@ -69,7 +69,7 @@ def generate_sapta_pdf(data: SAPTACertificateData):
 
         draw_multiline("1. Goods consigned from \n(exporter's business name, address, country)", data.consigned_from, 50, 745)
         draw_multiline("2. Goods consigned to \n(consignee's name, address, country)", data.consigned_to, 50, 680)
-        draw_multiline("3. Means of Transport and route \n(as far as known)", data.transport_route, 40, 600)
+        draw_multiline("3. Means of Transport and route \n(as far as known)", data.transport_route, 50, 600)
         draw_multiline("4. For Official use", data.official_use, 300, 600)
         draw_multiline("5. Tariff \nitem number", data.tariff_item_number, 50, 525)
         draw_multiline("6. Marks and \nnumbers of \npackages", data.package_marks_numbers, 110, 525)
