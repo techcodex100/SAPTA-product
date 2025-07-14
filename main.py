@@ -12,7 +12,7 @@ app = FastAPI(title="SAPTA Certificate Generator", version="1.0.0")
 
 class SAPTACertificateData(BaseModel):
     reference_no: Optional[str] = ""
-    issued_in: Optional[str] = ""  # NEW FIELD
+    issued_in: Optional[str] = ""
     consigned_from: Optional[str] = ""
     consigned_to: Optional[str] = ""
     transport_route: Optional[str] = ""
@@ -29,6 +29,11 @@ class SAPTACertificateData(BaseModel):
     declaration_signature: Optional[str] = ""
     certification_place_date: Optional[str] = ""
     certification_signature_stamp: Optional[str] = ""
+
+
+@app.get("/")
+def root():
+    return {"message": "SAPTA Certificate Generator is running 🚀"}
 
 
 @app.post("/generate-sapta-certificate-pdf/")
