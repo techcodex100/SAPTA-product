@@ -9,9 +9,10 @@ import os
 
 app = FastAPI(title="SAPTA Certificate Generator", version="1.0.0")
 
+
 class SAPTACertificateData(BaseModel):
     reference_no: Optional[str] = ""
-    issued_in: Optional[str] = ""  # 🔹 NEW FIELD
+    issued_in: Optional[str] = ""  # NEW FIELD
     consigned_from: Optional[str] = ""
     consigned_to: Optional[str] = ""
     transport_route: Optional[str] = ""
@@ -28,6 +29,7 @@ class SAPTACertificateData(BaseModel):
     declaration_signature: Optional[str] = ""
     certification_place_date: Optional[str] = ""
     certification_signature_stamp: Optional[str] = ""
+
 
 @app.post("/generate-sapta-certificate-pdf/")
 def generate_sapta_pdf(data: SAPTACertificateData):
@@ -48,7 +50,6 @@ def generate_sapta_pdf(data: SAPTACertificateData):
             c.setFont(label_font, size)
             for i, line in enumerate(label.splitlines()):
                 c.drawString(x, y - i * spacing, line)
-
             y_val_start = y - len(label.splitlines()) * spacing - 2
             c.setFont(value_font, size)
             for i, line in enumerate(value.splitlines()):
@@ -59,7 +60,7 @@ def generate_sapta_pdf(data: SAPTACertificateData):
 
         reference_label = "SAARC PREFERENTIAL TRADING ARRANGEMENT \n(SAPTA)\nReference No."
         draw_multiline(reference_label, data.reference_no, 300, 745)
-        draw_multiline("Issued in", data.issued_in, 300, 700)  # 🔹 Display new input
+        draw_multiline("Issued in", data.issued_in, 300, 700)
 
         draw_multiline("1. Goods consigned from \n(exporter's business name, address, country)", data.consigned_from, 50, 745)
         draw_multiline("2. Goods consigned to \n(consignee's name, address, country)", data.consigned_to, 50, 680)
