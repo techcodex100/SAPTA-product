@@ -1,0 +1,50 @@
+reference_no	issued_in	consigned_from	consigned_to	transport_route	official_use	tariff_item_number	package_marks_numbers	package_description	origin_criterion	gross_weight_or_quantity	invoice_number_date	declaration_country	importing_country	declaration_place_date	declaration_signature	certification_place_date	certification_signature_stamp
+SAPTA-REF-1000	Pune	"Sushma Reddy
+123 Industrial Lane"	"Sneha Patel Ltd.
+456 Export Road"	Sea via Mangalore	Checked by Customs	1722	PKG-131	Plastic granules	Rule A	2464 kg	INV-59156 dated 2025-07-01	India	Bhutan	Pune, 2025-07-01	Preeti Rao	Kolkata, 2025-07-02	Priya Shah
+SAPTA-REF-1001	Chennai	"Sushma Reddy
+123 Industrial Lane"	"Sneha Patel Ltd.
+456 Export Road"	Sea via Kochi	Checked by Customs	2231	PKG-142	Cosmetic kits with sealed labels	Rule C	2999 kg	INV-52628 dated 2025-07-02	India	Indonesia	Chennai, 2025-07-02	Nikhil Jain	Hyderabad, 2025-07-03	Anita Nair
+SAPTA-REF-1002	Pune	"Sushma Reddy
+123 Industrial Lane"	"Sushma Reddy Ltd.
+456 Export Road"	Sea via Mangalore	Verified by Officer	8389	PKG-167	Plastic granules	Rule B	706 kg	INV-94148 dated 2025-07-03	India	South Korea	Pune, 2025-07-03	Sushma Reddy	Surat, 2025-07-04	Naveen Khanna
+SAPTA-REF-1003	Kolkata	"Kiran Joshi
+123 Industrial Lane"	"Manoj Desai Ltd.
+456 Export Road"	Sea via Chennai	Checked by Customs	9542	PKG-183	Dried herbs in vacuum packs	Rule A	1538 kg	INV-81966 dated 2025-07-04	India	Indonesia	Kolkata, 2025-07-04	Kiran Joshi	Pune, 2025-07-05	Alok Sharma
+SAPTA-REF-1004	Mumbai	"Ravi Kumar
+123 Industrial Lane"	"Manoj Desai Ltd.
+456 Export Road"	Sea via Mangalore	Checked by Customs	7906	PKG-156	Cosmetic kits with sealed labels	Rule B	2363 kg	INV-72690 dated 2025-07-05	India	Vietnam	Mumbai, 2025-07-05	Kiran Joshi	Chennai, 2025-07-06	Priya Shah
+SAPTA-REF-1005	Kolkata	"Preeti Rao
+123 Industrial Lane"	"Nikhil Jain Ltd.
+456 Export Road"	Sea via Cochin	Verified by Officer	4469	PKG-109	Textile rolls packed in woven bags	Rule C	1581 kg	INV-64826 dated 2025-07-06	India	Bhutan	Kolkata, 2025-07-06	Amit Singh	Delhi, 2025-07-07	Deepak Verma
+SAPTA-REF-1006	Surat	"Sneha Patel
+123 Industrial Lane"	"Ravi Kumar Ltd.
+456 Export Road"	Sea via Chennai	Checked by Customs	2105	PKG-152	Organic grains sealed in PP bags	Rule C	2277 kg	INV-27292 dated 2025-07-07	India	Vietnam	Surat, 2025-07-07	Ravi Kumar	Hyderabad, 2025-07-08	Naveen Khanna
+SAPTA-REF-1007	Hyderabad	"Nikhil Jain
+123 Industrial Lane"	"Ravi Kumar Ltd.
+456 Export Road"	Sea via Cochin	Checked by Customs	3411	PKG-118	Processed rice packed in 50kg bags	Rule A	2838 kg	INV-41410 dated 2025-07-08	India	China	Hyderabad, 2025-07-08	Ravi Kumar	Mumbai, 2025-07-09	Rajan Mehta
+SAPTA-REF-1008	Bangalore	"Nikhil Jain
+123 Industrial Lane"	"Harsha Vardhan Ltd.
+456 Export Road"	Sea via Mangalore	Approved by Trade Dept.	1620	PKG-115	Plastic granules	Rule C	2909 kg	INV-24612 dated 2025-07-09	India	Nepal	Bangalore, 2025-07-09	Ravi Kumar	Bangalore, 2025-07-10	Neha Sharma
+SAPTA-REF-1009	Hyderabad	"Sneha Patel
+123 Industrial Lane"	"Manoj Desai Ltd.
+456 Export Road"	Sea via Mangalore	Approved by Trade Dept.	3386	PKG-167	Dried herbs in vacuum packs	Rule A	1465 kg	INV-80344 dated 2025-07-10	India	Bangladesh	Hyderabad, 2025-07-10	Harsha Vardhan	Mumbai, 2025-07-11	Rajan Mehta
+SAPTA-REF-1010	Delhi	"Amit Singh
+123 Industrial Lane"	"Nikhil Jain Ltd.
+456 Export Road"	Sea via Chennai	Approved by Trade Dept.	7801	PKG-148	Dried herbs in vacuum packs	Rule C	2642 kg	INV-34336 dated 2025-07-11	India	Bhutan	Delhi, 2025-07-11	Sushma Reddy	Mumbai, 2025-07-12	Deepak Verma
+SAPTA-REF-1011	Kolkata	"Sneha Patel
+123 Industrial Lane"	"Ravi Kumar Ltd.
+456 Export Road"	Sea via Cochin	Verified by Officer	5546	PKG-127	Textile rolls packed in woven bags	Rule C	2375 kg	INV-97227 dated 2025-07-12	India	China	Kolkata, 2025-07-12	Sushma Reddy	Mumbai, 2025-07-13	Swati Kulkarni
+SAPTA-REF-1012	Kolkata	"Kiran Joshi
+123 Industrial Lane"	"Amit Singh Ltd.
+456 Export Road"	Sea via Vizag	Approved by Trade Dept.	5820	PKG-156	Plastic granules	Rule B	1752 kg	INV-34882 dated 2025-07-13	India	Malaysia	Kolkata, 2025-07-13	Nikhil Jain	Chennai, 2025-07-14	Kirti Malhotra
+SAPTA-REF-1013	Indore	"Nikhil Jain
+123 Industrial Lane"	"Preeti Rao Ltd.
+456 Export Road"	Sea via Cochin	Approved by Trade Dept.	2084	PKG-167	Processed rice packed in 50kg bags	Rule A	806 kg	INV-17259 dated 2025-07-14	India	China	Indore, 2025-07-14	Ravi Kumar	Delhi, 2025-07-15	Kirti Malhotra
+SAPTA-REF-1014	Bangalore	"Nikhil Jain
+123 Industrial Lane"	"Nikhil Jain Ltd.
+456 Export Road"	Sea via Kochi	Approved by Trade Dept.	9030	PKG-122	Cosmetic kits with sealed labels	Rule C	2174 kg	INV-38762 dated 2025-07-15	India	Bangladesh	Bangalore, 2025-07-15	Amit Singh	Pune, 2025-07-16	Anita Nair
+SAPTA-REF-1015	Indore	"Sneha Patel
+123 Industrial Lane"	"Harsha Vardhan Ltd.
+456 Export Road"	Sea via Kochi	Checked by Customs	1691	PKG-132	Dried herbs in vacuum packs	Rule B	2458 kg	INV-83540 dated 2025-07-01	India	Bhutan	Indore, 2025-07-01	Ravi Kumar	Pune, 2025-07-02	Swati Kulkarni
+SAPTA-REF-1016	Delhi	"Amit Singh

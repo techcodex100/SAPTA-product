@@ -9,7 +9,6 @@ import os
 
 app = FastAPI(title="SAPTA Certificate Generator", version="1.0.0")
 
-
 class SAPTACertificateData(BaseModel):
     reference_no: Optional[str] = ""
     issued_in: Optional[str] = ""
@@ -30,11 +29,9 @@ class SAPTACertificateData(BaseModel):
     certification_place_date: Optional[str] = ""
     certification_signature_stamp: Optional[str] = ""
 
-
 @app.get("/")
 def root():
     return {"message": "SAPTA Certificate Generator is running 🚀"}
-
 
 @app.post("/generate-sapta-certificate-pdf/")
 def generate_sapta_pdf(data: SAPTACertificateData):
@@ -47,9 +44,6 @@ def generate_sapta_pdf(data: SAPTACertificateData):
             path = os.path.join(os.path.dirname(__file__), "static", filename)
             if os.path.exists(path):
                 c.drawImage(ImageReader(path), 0, 0, width=width, height=height)
-            else:
-                c.setFont("Helvetica-Bold", 10)
-                c.drawString(100, 800, f"⚠️ Missing background: {filename}")
 
         def draw_multiline(label, value, x, y, label_font="Helvetica-Bold", value_font="Helvetica", size=9.2, spacing=10):
             c.setFont(label_font, size)
@@ -98,7 +92,6 @@ def generate_sapta_pdf(data: SAPTACertificateData):
         # === Page 2 ===
         draw_image("2.jpg")
         c.showPage()
-
         c.save()
         buffer.seek(0)
 
@@ -109,5 +102,4 @@ def generate_sapta_pdf(data: SAPTACertificateData):
         )
 
     except Exception as e:
-        print("⚠️ PDF generation failed:", str(e))
         raise HTTPException(status_code=500, detail="PDF generation failed")
